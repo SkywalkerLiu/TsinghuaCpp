@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="course" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/course" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/course" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="C10_1.cpp" />
+		<Unit filename="C10_2.cpp" />
+		<Unit filename="C10_3.cpp" />
+		<Unit filename="C11_1.cpp" />
+		<Unit filename="C11_2.cpp" />
+		<Unit filename="C12_1.cpp" />
+		<Unit filename="C2_2.cpp" />
+		<Unit filename="C2_3.cpp" />
+		<Unit filename="C3_1.cpp" />
+		<Unit filename="C3_2.cpp" />
+		<Unit filename="C3_3.cpp" />
+		<Unit filename="C4_1.cpp" />
+		<Unit filename="C4_2.cpp" />
+		<Unit filename="C4_3.cpp" />
+		<Unit filename="C5_1.cpp" />
+		<Unit filename="C5_2.cpp" />
+		<Unit filename="C6_1.cpp" />
+		<Unit filename="C6_2.cpp" />
+		<Unit filename="C6_3.cpp" />
+		<Unit filename="C7_1.cpp" />
+		<Unit filename="C7_2.cpp" />
+		<Unit filename="C7_3.cpp" />
+		<Unit filename="C8_1.cpp" />
+		<Unit filename="C8_2.cpp" />
+		<Unit filename="C8_3.cpp" />
+		<Unit filename="C9_1.cpp" />
+		<Unit filename="C9_2.cpp" />
+		<Unit filename="C9_3.cpp" />
+		<Unit filename="Sym.cpp" />
+		<Unit filename="ex1.cpp" />
+		<Unit filename="ex3.cpp" />
+		<Unit filename="ex4.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
