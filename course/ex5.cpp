@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std£»
+using namespace stdÂ£Â»
 int main()
 {
     cin << n;
