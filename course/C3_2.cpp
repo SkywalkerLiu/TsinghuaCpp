@@ -1,5 +1,3 @@
-int j=2;
-int i=3;
 int fib(int n)
 {
     if(n==0||n==1){
